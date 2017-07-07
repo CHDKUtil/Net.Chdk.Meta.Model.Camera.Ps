@@ -2,5 +2,6 @@
 {
     public sealed class PsCameraData : CameraData<PsCameraData, PsCameraModelData>
     {
+        public AltData Alt { get; set; }
     }
 }
